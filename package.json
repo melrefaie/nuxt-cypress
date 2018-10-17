@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-cypress",
+  "version": "1.0.0",
+  "description": "My first-class Nuxt.js project",
+  "author": "Mohamed Maher",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "e2e": "cypress run",
+    "e2e:open": "cypress open"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "cypress": "^3.1.0",
+    "nodemon": "^1.11.0"
+  }
+}
