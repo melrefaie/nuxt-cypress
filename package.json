@@ -1,7 +1,7 @@
 {
   "name": "nuxt-cypress",
   "version": "1.0.0",
-  "description": "My first-class Nuxt.js project",
+  "description": "A Nuxt.js + Cypress starter project template without the distraction of a complicated development environment.",
   "author": "Mohamed Maher",
   "private": true,
   "scripts": {
@@ -13,11 +13,11 @@
     "e2e:open": "cypress open"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0"
+    "cross-env": "^6.0.3",
+    "nuxt": "^2.10.0"
   },
   "devDependencies": {
-    "cypress": "^3.1.0",
-    "nodemon": "^1.11.0"
+    "cypress": "^3.4.1",
+    "nodemon": "^1.19.3"
   }
 }
