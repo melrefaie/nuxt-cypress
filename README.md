@@ -9,20 +9,20 @@ A [Nuxt.js](https://github.com/nuxt/nuxt.js) + [Cypress](https://github.com/cypr
 $ yarn install
 
 # serve with hot reload at localhost:3000
-$ yarn run dev
+$ yarn dev
 
 # build for production and launch server
-$ yarn run build
+$ yarn build
 $ yarn start
 
 # generate static project
-$ yarn run generate
+$ yarn generate
 
-# run e2e tests with cypress
-$ yarn run e2e
+# run e2e tests with cypress - (You must start server before this)
+$ yarn e2e
 
-# run and open e2e tests with cypress
-$ yarn run e2e:open
+# run and open e2e tests with cypress - (You must start server before this)
+$ yarn e2e:open
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
